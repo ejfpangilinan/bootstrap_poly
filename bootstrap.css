@@ -1,0 +1,25 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.header {
+  position: absolute;
+  top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: bold;
+  font-family: Barlow Condensed;
+  font-size: 100px;
+  color: white;
+}
+
+.mukt{
+  font-family: Ek Mukta;
+}
+
+.barlow{
+  font-family: Barlow Condensed;
+}
