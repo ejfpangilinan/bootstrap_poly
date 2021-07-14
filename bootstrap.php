@@ -78,9 +78,10 @@ function rand_color() {
 
 
 
-
-<div  class = "header" >Quotes and Polygons</div>
-<img class= "hbg" src="header.jpg" alt="My Artwork" width="100%">
+<div class="col">
+  <div  class = "header" >Quotes and Polygons</div>
+  <img class= "hbg" src="header.jpg" alt="My Artwork" width="100%" height="auto">
+</div>
 
 <div class="barlow">
     <div class="row">
@@ -94,7 +95,6 @@ function rand_color() {
           $square->generate_points($cox,$coy,$rad);
           $square->render_poly("“Love For All, Hatred For None.” –Khalifatul Masih III");
         ?>
-
       </div>
       <div class="col" >
           <?php
