@@ -59,8 +59,9 @@ class Polygons {
 
   function render_poly($quotes){
 
-    echo "<svg height=\"300\" width=\"300\"> <polygon points=\"$this->points\" style=\"fill:$this->poly_color; stroke:black;stroke-width:1\"/>";
-    echo "<foreignObject x=\"75\" y=\"100\" width=\"175\" height=\"300\" >";
+    echo "<svg height=\"300\" width=\"300\">";
+    echo "<polygon points=\"$this->points\" style=\"fill:$this->poly_color; stroke:black;stroke-width:1\"/>";
+    echo "<foreignObject x=\"50\" y=\"100\" width=\"200\" height=\"300\" >";
     echo "<text xmlns=\"http://www.w3.org/1999/xhtml\" x=\"50%\" y=\"40%\" dominant-baseline=\"middle\" fill = \"$this->font_color\" text-anchor=\"middle\" style=\"font-size: 15px; font-weight:bold; color: $this->font_color\">$quotes</text>";
     echo "</foreignObject>";
     echo "</svg>";
@@ -86,8 +87,11 @@ function rand_color() {
       <div class="col">
         <?php
           $bcol = rand_color();
+          $cox = 150;
+          $coy = 150;
+          $rad = 150;
           $square = new Polygons(3, $bcol, "Ek Mukta", "White");
-          $square->generate_points(150,150,150);
+          $square->generate_points($cox,$coy,$rad);
           $square->render_poly("“Love For All, Hatred For None.” –Khalifatul Masih III");
         ?>
 

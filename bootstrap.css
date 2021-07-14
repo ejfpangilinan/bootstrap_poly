@@ -23,3 +23,32 @@
 .barlow{
   font-family: Barlow Condensed;
 }
+
+
+
+/*.col {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}*/
+
+
+
+text {
+  width:  auto;
+  height: auto;
+}
+
+
+svg {
+  text-align: center;
+  width:  auto;
+  height: auto;
+}
+
+
+.col{
+  text-align: center;
+}
